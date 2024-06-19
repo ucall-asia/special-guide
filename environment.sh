@@ -46,8 +46,8 @@ else
 	exit 3
 fi
 
-if [ .$os_name = .'Debian' ]; then
-	if [ .$os_codename = .'bookworm' ]; then
+if [ .$os_name = .'Ubuntu' ]; then
+	if [ .$os_codename = .'jammy' ]; then
 		verbose "Correct Operating System"
 	else
 		error "Unsupported Operating System codename '$os_codename'"
