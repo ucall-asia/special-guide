@@ -4,9 +4,9 @@
 cd "$(dirname "$0")"
 
 #includes
-. ./resources/config.sh
-. ./resources/colors.sh
-. ./resources/environment.sh
+. ./config.sh
+. ./colors.sh
+. ./environment.sh
 
 # removes the cd img from the /etc/apt/sources.list file (not needed after base install)
 sed -i '/cdrom:/d' /etc/apt/sources.list
