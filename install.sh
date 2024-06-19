@@ -35,10 +35,10 @@ service snmpd restart
 echo "set mouse-=a" >> ~/.vimrc
 
 #IPTables
-iptables.sh
+./iptables.sh
 
 #Postgres
-postgresql.sh
+./postgresql.sh
 
 #add the database schema, user and groups
-finish-fusionpbx.sh
+./finish-fusionpbx.sh
